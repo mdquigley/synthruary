@@ -100,7 +100,7 @@ play.addEventListener("click", () => {
     play.innerHTML = "⏹️";
   } else {
     Tone.Transport.stop();
-    phrases.phrase2 = [...phrases.phrase1];
+    phrases.phrase2 = phrases.phrase1;
     sequence2.stop();
     playing = false;
     clearInterval(phraseInterval);

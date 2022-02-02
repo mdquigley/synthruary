@@ -14,23 +14,54 @@
     ></script>
   </head>
   <body>
-    <h1>Synthruary!</h1>
-    <p>
-      A collection of sound bits and bobs written with the Tone.js library. See
-      more at
-      <a href="https://synthruary.com/" target="_blank">synthruary.com</a>
-    </p>
-    <section>
-      <h2>Minimalism</h2>
-      <button id="play-minimalism">▶️</button>
+    <header>
+      <h1>SYNTHRUARY</h1>
       <p>
-        Two synths cycle through a sequence of pitches. At random intervals
-        between 2-10 seconds the second synth advances its sequence by 1,
-        causing new harmonies and melodic syncopations as the phrase interacts
-        with itself. Think piano phase but with discrete changes, so not really.
-        Just some simple array slicing and random rumber generation.
+        A collection of sound bits and bops written with the
+        <a href="https://tonejs.github.io" target="_blank">Tone.js</a>
+        framework. Prompts for the month of February provided by
+        <a href="https://twitter.com/whichlight" target="_blank">@whichlight</a>
+        over at
+        <a href="https://synthruary.com/" target="_blank">synthruary.com</a>
       </p>
-      <script src="minimalism.js"></script>
+    </header>
+    <!-- Entries -->
+    <section>
+      <!-- Minimalism -->
+      <div>
+        <h2>Minimalism</h2>
+        <button id="play-minimalism">▶️</button>
+        <p>
+          Two synths cycle through a sequence of pitches. At random intervals
+          between 2-10 seconds the second synth advances its sequence by 1,
+          causing new harmonies and melodic syncopations as the phrase interacts
+          with itself. Think piano phase but with discrete changes, so not
+          really. Just some simple array slicing and random rumber generation.
+        </p>
+        <script src="minimalism.js"></script>
+      </div>
+      <!-- Arpeggiators -->
+      <div>
+        <h2>Arpeggiators</h2>
+        <button id="play-arpeggiators">▶️</button>
+        <p>
+          Arpeggiators. Arpeggiators. Arpeggiators. Arpeggiators. Arpeggiators.
+          Arpeggiators. Arpeggiators. Arpeggiators. Arpeggiators. Arpeggiators.
+          Arpeggiators. Arpeggiators.
+        </p>
+        <script src="arpeggiators.js"></script>
+      </div>
+      <!-- Musique Concrète -->
+      <div>
+        <h2>Musique Concrète</h2>
+        <button id="play-musique">▶️</button>
+        <p>
+          Musique Concrète. Musique Concrète. Musique Concrète. Musique
+          Concrète. Musique Concrète. Musique Concrète. Musique Concrète.
+          Musique Concrète. Musique Concrète. Musique Concrète.
+        </p>
+        <script src="musique.js"></script>
+      </div>
     </section>
   </body>
 </html>
